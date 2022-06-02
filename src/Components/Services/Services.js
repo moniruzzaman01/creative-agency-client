@@ -19,13 +19,13 @@ const Services = () => {
     },
   ];
   return (
-    <div className=" lg:px-32 my-20 lg:my-32">
-      <h1 className="text-5xl font-bold text-center">
+    <div className=" px-5 lg:px-32 my-10 lg:my-32">
+      <h1 className=" text-4xl lg:text-5xl font-bold text-center">
         Provide awesome <span className=" text-[#7AB259]">services</span>
       </h1>
-      <div className=" grid grid-cols-3 gap-5 mt-16">
+      <div className=" grid grid-cols-1 lg:grid-cols-3 gap-5 mt-5 lg:mt-16">
         {service.map((service, key) => (
-          <div key={key} class="card shadow-lg ">
+          <div key={key} class="card shadow-lg mt-5 ">
             <div class="card-body items-center text-center">
               <div class="avatar">
                 <div class="w-24 rounded-full">

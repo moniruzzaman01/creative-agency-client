@@ -3,8 +3,8 @@ import React from "react";
 const Footer = () => {
   return (
     <div className=" bg-[#fbd062]">
-      <div className=" px-5 py-10 lg:p-20 min-h-[40vh]  lg:px-32 lg:flex gap-5">
-        <div className=" max-w-3xl mx-auto lg:w-1/2 ">
+      <div className=" px-5 py-10 md:flex lg:p-20 min-h-[40vh]  lg:px-32 lg:flex gap-5">
+        <div className=" max-w-3xl mx-auto md:w-1/2 lg:w-1/2 ">
           <h1 className=" text-3xl lg:text-4xl font-bold">
             Let us handle your project, professionally.
           </h1>
@@ -13,7 +13,7 @@ const Footer = () => {
             mobile and web apps in general.
           </p>
         </div>
-        <form className=" pt-5 lg:w-1/2" action="">
+        <form className=" pt-5 md:w-1/2 lg:w-1/2" action="">
           <input
             type="text"
             placeholder="Your Email Address"

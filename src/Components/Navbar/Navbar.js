@@ -7,12 +7,16 @@ const Navbar = () => {
   const [mobileNav, setMobileNav] = useState(false);
 
   return (
-    <div className="navbar px-5 lg:px-32 relative">
+    <div className="navbar px-5 md:px-10 lg:px-32 relative">
       <div className="brand">
         <img src={logo} alt="" />
       </div>
-      <div className="">
-        <label onClick={() => setMobileNav(!mobileNav)} class=" lg:hidden">
+      {/* mobile nav */}
+      <div>
+        <label
+          onClick={() => setMobileNav(!mobileNav)}
+          class="btn bg-transparent border-none text-black hover:bg-transparent md:hidden lg:hidden cursor-pointer"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-12 w-12"
@@ -29,7 +33,7 @@ const Navbar = () => {
           </svg>
         </label>
         {mobileNav && (
-          <div className=" absolute bg-[#fbd062] h-[35vh] w-screen left-0 top-[80px] text-center p-10 capitalize">
+          <div className=" absolute bg-[#fbd062] min-h-[35vh] w-screen left-0 top-[80px] text-center p-10 capitalize">
             <ul>
               <li className=" p-2">
                 <Link to="/">home</Link>
@@ -50,7 +54,7 @@ const Navbar = () => {
           </div>
         )}
       </div>
-      <div className="items hidden lg:block capitalize">
+      <div className="items hidden md:block lg:block capitalize">
         <ul>
           <li>
             <Link to="/">home</Link>

@@ -23,7 +23,7 @@ const Services = () => {
       <h1 className=" text-4xl lg:text-5xl font-bold text-center">
         Provide awesome <span className=" text-[#7AB259]">services</span>
       </h1>
-      <div className=" grid grid-cols-1 lg:grid-cols-3 gap-5 mt-5 lg:mt-16">
+      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5 lg:mt-16">
         {service.map((service, key) => (
           <div key={key} class="card shadow-lg mt-5 ">
             <div class="card-body items-center text-center">

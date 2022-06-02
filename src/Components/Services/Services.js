@@ -19,7 +19,7 @@ const Services = () => {
     },
   ];
   return (
-    <div className=" lg:px-32 my-20">
+    <div className=" lg:px-32 my-20 lg:my-32">
       <h1 className="text-5xl font-bold text-center">
         Provide awesome <span className=" text-[#7AB259]">services</span>
       </h1>

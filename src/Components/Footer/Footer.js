@@ -3,20 +3,20 @@ import React from "react";
 const Footer = () => {
   return (
     <div className=" bg-[#fbd062]">
-      <div className=" p-10 h-full  lg:px-32 lg:flex gap-5 lg:flex-row-reverse">
+      <div className=" p-20 min-h-[40vh]  lg:px-32 lg:flex gap-5 lg:flex-row-reverse">
         <form className=" w-1/2" action="">
           <input
             type="text"
             placeholder="Your Email Address"
-            class="input mb-5 w-full max-w-lg"
+            class="input mb-5 w-full block md:max-w-lg lg:max-w-2xl"
           />
           <input
             type="text"
             placeholder="Your Name/Company's Name"
-            class="input mb-5 w-full max-w-lg"
+            class="input mb-5 w-full block md:max-w-lg lg:max-w-2xl"
           />
           <textarea
-            class="textarea mb-5 w-full max-w-lg"
+            class="textarea mb-5 w-full block md:max-w-lg lg:max-w-2xl"
             placeholder="Your Message"
           ></textarea>
           <button className="btn bg-gray-900">send</button>

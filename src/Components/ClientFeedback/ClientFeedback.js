@@ -25,14 +25,14 @@ const ClientFeedback = () => {
     },
   ];
   return (
-    <div className=" lg:px-32 mb-20">
+    <div className=" lg:px-32 my-20 lg:my-32">
       <h1 className="text-5xl font-bold text-center">
         Clients
         <span className=" text-[#7AB259]"> Feedback</span>
       </h1>
       <div className=" grid grid-cols-3 gap-5 mt-16">
         {feedbacks.map((feedback, key) => (
-          <div key={key} class=" p-3 rounded  border-2 ">
+          <div key={key} class=" md:px-3 lg:px-5 lg:py-16 rounded  border-2 ">
             <div className=" flex items-center gap-2">
               <div class="avatar">
                 <div class="w-16 h-16 rounded-full">

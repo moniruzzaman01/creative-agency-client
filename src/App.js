@@ -4,7 +4,7 @@ import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className=" max-w-7xl mx-auto">
+    <div className="">
       <Routes>
         <Route path="/" element={<Home />}></Route>
       </Routes>

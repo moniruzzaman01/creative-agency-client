@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "../Hero/Hero";
+import Services from "../Services/Services";
 import Links from "./Links";
 
 const Home = () => {
@@ -25,6 +26,7 @@ const Home = () => {
       ></div>
       {/* bg angler end */}
       <Links />
+      <Services />
     </div>
   );
 };

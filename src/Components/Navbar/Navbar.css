@@ -2,6 +2,7 @@
   height: 100px;
   display: flex;
   justify-content: space-between;
+  background-color: #fbd062;
 }
 .navbar .brand {
   height: 100%;

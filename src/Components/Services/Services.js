@@ -35,11 +35,8 @@ const Services = () => {
                   />
                 </div>
               </div>
-              <h2 class="card-title mt-4">Web & Mobile design</h2>
-              <p>
-                We craft stunning and amazing web UI, using a well drrafted UX
-                to fit your product.
-              </p>
+              <h2 class="card-title mt-4">{service.title}</h2>
+              <p>{service.desc}</p>
             </div>
           </div>
         ))}

@@ -3,10 +3,10 @@ import hero from "../../assets/logos/Frame.png";
 
 const Hero = () => {
   return (
-    <div className=" pb-20 h-full items-center min-h-[60vh] lg:px-32 lg:flex lg:flex-row-reverse ">
-      <img src={hero} className=" max-w-xl mx-auto mb-10 lg:w-1/2" alt="" />
+    <div className=" px-5 pb-20 h-full items-center min-h-[60vh] lg:px-32 lg:flex lg:flex-row-reverse ">
+      <img src={hero} className=" lg:max-w-xl mx-auto mb-10 lg:w-1/2" alt="" />
       <div className=" max-w-3xl mx-auto lg:w-1/2 ">
-        <h1 className="text-5xl font-bold">
+        <h1 className="text-4xl lg:text-5xl font-bold">
           Let’s Grow Your Brand To The Next Level
         </h1>
         <p className="py-6">

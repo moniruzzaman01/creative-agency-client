@@ -7,7 +7,7 @@ const Navbar = () => {
   const [mobileNav, setMobileNav] = useState(false);
 
   return (
-    <div className="navbar lg:px-32 relative">
+    <div className="navbar px-5 lg:px-32 relative">
       <div className="brand">
         <img src={logo} alt="" />
       </div>

@@ -1,0 +1,26 @@
+.navbar {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .brand {
+  height: 100%;
+}
+.navbar .brand img {
+  height: 60%;
+}
+.navbar .items ul {
+  display: flex;
+  list-style: none;
+}
+.navbar .items ul li {
+  margin-right: 10px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+.navbar .items ul li:last-child {
+  margin-right: 0;
+}

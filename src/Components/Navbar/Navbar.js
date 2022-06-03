@@ -69,7 +69,9 @@ const Navbar = () => {
             <Link to="/">contact us</Link>
           </li>
           <li>
-            <button className="btn bg-gray-900">Login</button>
+            <Link to="/login">
+              <button className="btn bg-gray-900">Login</button>
+            </Link>
           </li>
         </ul>
       </div>

@@ -11,11 +11,13 @@ import { Link, Outlet } from "react-router-dom";
 
 const Dashboard = () => {
   return (
-    <div>
+    <div className=" bg-cyan-200">
       <div className=" sticky top-0 z-50">
-        <div className=" absolute bg-white min-h-screen w-52">
+        <div className=" absolute bg-white min-h-screen w-52 left-[-45%] hover:left-0 md:left-0 lg:left-0 transition-all ease-linear">
           <div className=" w-[70%] mx-auto h-16 flex items-center">
-            <img src={logo} alt="" />
+            <Link to="/">
+              <img src={logo} alt="" />
+            </Link>
           </div>
           <div className=" w-2/3 mx-auto mt-10">
             <ul>
@@ -44,7 +46,7 @@ const Dashboard = () => {
       <div className=" sticky top-0">
         <Navbar />
       </div>
-      <div className=" min-h-[93vh] bg-slate-200 ml-52 p-5">
+      <div className=" min-h-[93vh] bg-slate-200 ml-5 md:ml-52 lg:ml-52 p-5">
         <Outlet />
       </div>
     </div>

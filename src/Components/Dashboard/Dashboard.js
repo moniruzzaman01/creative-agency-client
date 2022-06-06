@@ -7,7 +7,7 @@ import {
   faLock,
   faComment,
 } from "@fortawesome/free-solid-svg-icons";
-import Order from "./Order";
+import { Link, Outlet } from "react-router-dom";
 
 const Dashboard = () => {
   return (
@@ -19,17 +19,23 @@ const Dashboard = () => {
           </div>
           <div className=" w-2/3 mx-auto mt-10">
             <ul>
-              <li className=" text-gray-700 text-sm">
-                <FontAwesomeIcon className=" mr-2" icon={faShoppingCart} />
-                Order
+              <li className=" my-3 text-gray-700 text-sm">
+                <Link to="/dashboard">
+                  <FontAwesomeIcon className=" mr-2" icon={faShoppingCart} />
+                  Order
+                </Link>
               </li>
-              <li className=" text-gray-700 text-sm">
-                <FontAwesomeIcon className=" mr-2" icon={faLock} />
-                Service List
+              <li className=" my-3 text-gray-700 text-sm">
+                <Link to="/dashboard/service-list">
+                  <FontAwesomeIcon className=" mr-2" icon={faLock} />
+                  Service List
+                </Link>
               </li>
-              <li className=" text-gray-700 text-sm">
-                <FontAwesomeIcon className=" mr-2" icon={faComment} />
-                Review
+              <li className=" my-3 text-gray-700 text-sm">
+                <Link to="/dashboard/review">
+                  <FontAwesomeIcon className=" mr-2" icon={faComment} />
+                  Review
+                </Link>
               </li>
             </ul>
           </div>
@@ -39,7 +45,7 @@ const Dashboard = () => {
         <Navbar />
       </div>
       <div className=" min-h-[93vh] bg-slate-200 ml-52 p-5">
-        <Order />
+        <Outlet />
       </div>
     </div>
   );

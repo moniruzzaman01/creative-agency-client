@@ -21,7 +21,7 @@ const Order = () => {
             class="input input-bordered w-full mb-3"
           />
           <textarea
-            class="textarea textarea-bordered w-full"
+            class="textarea textarea-bordered w-full mb-1"
             placeholder="Project Details"
           ></textarea>
           <div className=" flex justify-between items-center gap-2 mb-3">

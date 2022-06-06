@@ -11,9 +11,9 @@ import { Link, Outlet } from "react-router-dom";
 
 const Dashboard = () => {
   return (
-    <div className=" bg-cyan-200">
+    <div>
       <div className=" sticky top-0 z-50">
-        <div className=" absolute bg-white min-h-screen w-52 left-[-45%] hover:left-0 md:left-0 lg:left-0 transition-all ease-linear">
+        <div className=" absolute bg-[#FBD062] lg:bg-white min-h-screen w-52 left-[-45%] hover:left-0 md:left-0 lg:left-0 transition-all ease-linear">
           <div className=" w-[70%] mx-auto h-16 flex items-center">
             <Link to="/">
               <img src={logo} alt="" />
